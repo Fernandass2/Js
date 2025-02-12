@@ -47,6 +47,7 @@ class Enxada extends Bloco{
         console.log(`Resistência: ${this.resistencia}`)
     }
 
+
     arar() {
         console.log("._._._. Terra Arada!")
         if (this.conquista === true) {
@@ -58,6 +59,28 @@ class Enxada extends Bloco{
     minerar() {
         console.log("♰ Dano Atribuído!")
     }
+}
+
+class Espada extends Bloco{
+    constructor(textura, resistencia){
+        super(textura, resistencia)  //super -> classe pai
+ 
+ } 
+ criarEspada() {
+    console.log("--------------------------")
+    console.log("-_")
+    console.log(" /")
+    console.log(`Espada de ${this.textura}`)
+    console.log(`Resistência: ${this.resistencia}`)
+ }
+
+ quebrou (){
+    console.log("Espada Quebrou")
+ }
+
+ guerra (){
+    console.log("tim tim tim")
+ }
 }
 
 /* ------ Mundo -----*/
@@ -91,3 +114,12 @@ const enxada3 = new Enxada("Diamante", 10, false)
 enxada3.criarEnxada()
 enxada3.minerar()
 
+const espada1 = new Espada("Ferro", 10)
+espada1.criarEspada()
+espada1.guerra()
+espada1.quebrou()
+
+const espada2 = new Espada("Diamante", 50)
+espada2.criarEspada()
+espada2.guerra()
+espada2.quebrou()
