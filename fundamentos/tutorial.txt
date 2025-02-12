@@ -33,3 +33,32 @@ NODE - Plataforma que permite executar o Js fora do navegador de internet.
 Comandos NODE
 node -y (versão do node)
 node arquivos.js (executar o arquivo javascript)
+
+_____________________________________________________________________________________________________________
+ 
+ FRAMEWORK
+
+ Um framework é um conjunto de ferramentas, biblioteca e regras que facilita o desenvolvimento de software, forneceno
+ uma estrutura pronta para o programador. O framework define um "esqueleto" do projeto, onde você preenche com seu código,
+ seguindo padrões já estabelecido. Isso economiza tempo, evita a repetição de código e garante boas práticas.
+ Um framework é como montar um hambúrguer em uma rede de fast food.
+ Se um framework, você teria que moer carne, assar o pão, preparar os ingredientes e criar sua própria receita do zero.
+
+ ___________________________________________________________________________________________________________________
+ 
+ Ex: Bootstrap ( framework font-end )
+
+ Passo 1: Acessa a documentação do framework
+ https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
+
+Passo 2: Criar os links para o css e Js, conforme orientação da documentação
+Passo 3: Criar inicialmente uma classe de nome container
+
+__________________________________________________________________________________________________________________________
+
+Array ou vetor é uma estrutura de dados indexada
+Array é uma alocação de variável, com a diferença que ele pode armazenar vários dados.
+O array trabalha com índeces, o índece sempre inicia em 0.
+Uso do array:
+- Simplificar o código
+- Estrutura de dados (manipular os dados - banco de dados)
