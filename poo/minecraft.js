@@ -18,7 +18,7 @@ class Bloco {
         console.log("-------------------------------------------------------")
         console.log("┌─┐")
         console.log("└─┘")
-        console.log(`Bloco de ${this.texture}`)
+        console.log(`Bloco de ${this.textura}`)
         console.log(`Resistência: ${this.resistencia}`)
     }
 
@@ -64,23 +64,24 @@ class Enxada extends Bloco{
 class Espada extends Bloco{
     constructor(textura, resistencia){
         super(textura, resistencia)  //super -> classe pai
- 
- } 
- criarEspada() {
-    console.log("--------------------------")
-    console.log("-_")
-    console.log(" /")
-    console.log(`Espada de ${this.textura}`)
-    console.log(`Resistência: ${this.resistencia}`)
- }
+    } 
 
- quebrou (){
-    console.log("Espada Quebrou")
- }
+    criarEspada() {
+        console.log("--------------------------")
+        console.log("    ⚔️") // ícone de espada
+        console.log("-_")
+        console.log(" /")
+        console.log(`Espada de ${this.textura}`)
+        console.log(`Resistência: ${this.resistencia}`)
+    }
 
- guerra (){
-    console.log("tim tim tim")
- }
+    quebrou() {
+        console.log("Espada Quebrou")
+    }
+
+    guerra() {
+        console.log("tim tim tim")
+    }
 }
 
 /* ------ Mundo -----*/
